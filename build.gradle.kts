@@ -15,6 +15,10 @@ repositories {
     mavenCentral()
 }
 
+springBoot {
+    mainClass.set("demo.DemoApplicationKt")
+}
+
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
     implementation("org.springframework.boot:spring-boot-starter-web")
